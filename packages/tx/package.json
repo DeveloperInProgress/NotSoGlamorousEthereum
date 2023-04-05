@@ -1,6 +1,6 @@
 {
-  "name": "@nighttrax/foo",
-  "version": "1.0.0",
+  "name": "@nsgeth/tx",
+  "version": "0.0.1",
   "main": "dist/index",
   "types": "dist/index",
   "files": [
@@ -11,6 +11,9 @@
     "clean": "rimraf ./dist",
     "compile": "tsc -p tsconfig.build.json",
     "prepublishOnly": "pnpm run build"
+  },
+  "dependencies": {
+    "qheap": "^1.4.0"
   },
   "devDependencies": {
     "rimraf": "~4.4.0",
